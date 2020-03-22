@@ -1,0 +1,136 @@
+body {
+    background-color: whitesmoke;
+    list-style-type: none;
+    margin-left: 30px
+}
+
+li {
+    background-color: whitesmoke;
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    font-family: Futuramedium;
+    font-size: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #45ADA8;
+}
+
+p {
+
+    font-size: 50pt;
+    color: #547980;
+    text-align: center;
+    font-family: FuturaMedium;
+    
+
+}
+
+text {
+    font-size: 20pt;
+    color: #45ADA8;
+    text-align: center;
+    font-family: FuturaMedium;
+}
+
+img {
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family: FuturaMedium;
+    src: url(FuturaStd-Medium.otf);
+}
+
+.landing {
+    width: 500px;
+    padding-top: 30vh;
+    border-bottom: 3px #547980 solid;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutflex {
+    color: #45ADA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: FuturaMedium;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.aboutflexitem {
+    width: 200px;
+    text-align: center;
+}
+
+.pastprojects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+.slow:hover {
+    color:  #547980;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

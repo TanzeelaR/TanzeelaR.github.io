@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: floralwhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 3em;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+#blue {
+    color: white;
+    animation-name: blue;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   
+   
+}
+
+a {
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 1em;
+    color: black;
+}
+
+@keyframes blue {
+    0% {
+        opacity: 0;
+        color: cornflowerblue;
+         letter-spacing: 25px;
+    }
+    
+    
+    
+    
+    100% {
+       opacity: 1;
+         color: cornflowerblue;
+         letter-spacing: 0px;
+    }
+}
+
+

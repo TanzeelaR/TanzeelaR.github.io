@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: floralwhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+p {
+    font-size: 4em;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+#blue {
+    color: white;
+    animation-name: blue;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 1em;
+    color: black;
+}
+
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateX(500px);
+        color: cornflowerblue;
+        background-color: floralwhite;
+        
+    }
+
+    100% {
+        transform:translateX(-500px);
+        color: black;
+    }
+}
+
+
+#me {
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}

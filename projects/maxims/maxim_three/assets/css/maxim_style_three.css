@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: floralwhite;
+}
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 3em;
+    color: black;
+    font-family: "Arial", sans-serif;
+}
+
+
+#lost {
+    color: purple;
+    animation-name: lost;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 1em;
+    color: black;
+}
+
+
+
+@keyframes lost {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+img {
+
+    animation-name: squid;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+
+
+}
+
+@keyframes squid {
+    0% {
+
+        transform: translateX(-1000px);
+
+
+
+    }
+
+    100% {
+
+
+        transform: translateX(1000px);
+
+    }
+}

@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 2em;
+    color: black;
+    font-family: Arial;
+}
+
+#please {
+
+    animation-name: expand;
+    animation-duration: 5s;
+    animation direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#me {
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#color {
+    animation-name: opacity;
+    animation-duration: 5s;
+    animation direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes expand {
+    0% {
+        font-size: 2em;
+    }
+
+    100% {
+        font-size: 5em;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(150px);
+    }
+
+    100% {
+        transform: translateY(-150px);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
