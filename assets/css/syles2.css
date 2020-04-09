@@ -77,6 +77,12 @@ img {
     text-align: center;
 }
 
+.generator {
+    width: 600px;
+    text-align: center;
+}
+
+
 .pastprojects {
     display: flex;
     flex-direction: column;
