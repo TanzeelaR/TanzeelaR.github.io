@@ -1,0 +1,83 @@
+body {
+    background-color:#fae3d9;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#lineOne {
+    font-size: 15px;
+    color: #ffb6b9;
+    letter-spacing: 5px;
+}
+
+#lineTwo {
+    font-size: 15px;
+    color: #8ac6d1;
+    font-variant-caps: all-petite-caps
+}
+
+#lineThree {
+    font-size: 15px;
+    color: #ffb6b9;
+}
+
+#linefour {
+    font-size: 15px;
+    color: #8ac6d1;
+}
+
+#linefive {
+    font-size: 15px;
+    color: #ffb6b9;
+}
+
+#linesix {
+    font-size: 15px;
+    color: #8ac6d1;
+}
+
+#lineseven {
+    font-size: 15px;
+    color: #ffb6b9;
+}
+
+#lineeight {
+    font-size: 15px;
+    color: #8ac6d1;
+}
+
+#linenine {
+    font-size: 15px;
+    color: #ffb6b9;
+}
+
+#lineten {
+    font-size: 15px;
+    color: #8ac6d1;
+}
+
+#lineeleven {
+    font-size: 15px;
+    color: #ffb6b9;
+}
+
+#linetwelve {
+    font-size: 15px;
+    color: #8ac6d1;
+}
+
+#linethirteen {
+    font-size: 15px;
+    color: #ffb6b9;
+}
+
+#linefourteen {
+    font-size: 15px;
+    color: #8ac6d1;
+}

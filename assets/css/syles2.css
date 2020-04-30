@@ -94,7 +94,10 @@ img {
 }
 
 
-
+iframe{
+    width: 300px;
+    
+}
 
 
 .slow:hover {
