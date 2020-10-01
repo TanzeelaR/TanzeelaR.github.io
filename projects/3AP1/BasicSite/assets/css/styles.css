@@ -17,6 +17,15 @@ h1 {
     margin: 40px 0px;
 }
 
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        /*    align-items: center;*/
+}
+
 p {
     font-family: baskerville;
     font-size: 1.5em;
@@ -26,11 +35,13 @@ p {
     /* padding:5px;  */
 }
 
-p2 {
+.names {
+    
     font-family: baskerville;
-    font-size: 1.5em;
-    line-height: 1.75em;
     color: black;
+ 
+    line-height: 1.75em;
+   
     width: 25em;
     /* padding:5px;  */
 }
@@ -48,6 +59,12 @@ a {
 /*    animation properties
     
     transition: 1s;*/
+}
+
+
+img {
+    width: 60em;
+    margin-bottom: 5em;
 }
 
 
