@@ -15,9 +15,9 @@ body {
 h1 {
     font-family: baskerville;
     font-size: 2.5em;
+    margin-top: 
 
-  margin-bottom: -15em;
-       padding: 40vh;
+ 
 }
 
 
@@ -39,7 +39,7 @@ p {
     color: darkred;
     width: 25em;
     /* padding:5px;  */
-    padding: 40vh;
+    margin-left: 10em;
 }
 
 .names {
