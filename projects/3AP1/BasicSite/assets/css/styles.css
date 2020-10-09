@@ -7,47 +7,22 @@ html {}
 
 body {
     height: 100vh;
-
-    /*    100% of the viewport height*/
-    /*  padding: 250px;*/
     padding-top: 450px;
     padding-left: 300px;
     padding-right: 50px;
-
-
 }
-
-h1 {
-    font-family: baskerville;
-    font-size: 2.5em;
-    line-height: 4em;
-
-}
-
-/*h2{*/
-/*    z-index: -1;*/
-/*    background-image: image()*/
-
-
-/*}*/
-
 
 .bg {
     background-image: url(../imgs/Main5.jpg);
-
     background-repeat: no-repeat;
     /*  background-attachment: fixed;*/
     background-position: top left;
-
-
 }
 
 .pages {
     padding-top: 100px;
     padding-left: 50px;
-
 }
-
 
 .container {
     display: flex;
@@ -57,27 +32,29 @@ h1 {
 }
 
 
-
-
 p {
     font-family: baskerville;
-    font-size: 1.5em;
+    font-size: 18pt;
     line-height: 1.75em;
     color: darkred;
     width: 25em;
     /* padding:5px;  */
-
 }
 
 .names {
-
-    font-family: baskerville;
+  font-family: baskerville;
+    font-size: 24pt;
+/*    font-weight:bold;*/
     color: black;
-
-    line-height: 1.75em;
-
     width: 25em;
-    /* padding:5px;  */
+}
+
+.heading {
+  font-family: baskerville;
+    font-size: 26pt;
+    font-weight: 500;
+    color: black;
+    width: 25em;
 }
 
 
