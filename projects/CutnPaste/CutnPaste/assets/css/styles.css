@@ -7,7 +7,7 @@ body {
     height: 100vh;
     /*    100% of the viewport height*/
     padding: 100px;
-    background-color: lightcyan;
+    background-color: lightgoldenrodyellow;
 }
 
 h1 {
@@ -18,16 +18,14 @@ h1 {
     text-align: center;
     color: darkorange;
     margin: 20px 0px;
-    background-color: lightgoldenrodyellow;
-
+    background-color: lightcyan;
 }
 
 span {
     color: black;
     font-weight: 500;
     letter-spacing: 1em;
-    background-color: lightcyan;
-
+    /*       background-color: lightgoldenrodyellow;*/
 }
 
 p {
@@ -37,28 +35,30 @@ p {
     letter-spacing: 0em;
     text-align: start;
     color: blue;
+    margin: 20px 90px;
+    padding: 10px;
 }
 
-a {}
-
+a {
+}
 
 a:hover {
     background: black;
     color: white;
 }
 
+a:link {
+    color:darkgreen
+}
+a:visited {
+    color: darkgoldenrod
+}
+a:active {
+    background-color: aqua
+}
 
 /*
-margin:;
-margin:;
-margin:;
-padding:;
-padding:;
-padding:;
-border:;
-border:;
-border:;
-border-radius:;
+border:; couldnt get it to work
 border-radius:;
 z-index:;
 z-index:;
@@ -81,8 +81,5 @@ animation-iteration-count:;
 ::selection {}
 cursor:;
 cursor:;
-a:link {}
-a:visited {}
-a:active {}
-a:hover {}
+
 */
