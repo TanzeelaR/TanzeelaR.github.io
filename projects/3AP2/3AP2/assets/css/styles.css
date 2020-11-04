@@ -30,14 +30,16 @@ p {
     width: 450pt;
 }
 
+
 a {
 
-    color: black;
-    text-decoration: none;
-    font-size: 1em;
-    display: inline-block;
 position: fixed;
 left: 1000px;
+    top: 600px;
+    
+}
+
+p2{
     
 }
 
@@ -45,6 +47,9 @@ img{
    width: 20%;   
 }
 
+imgtwo{
+   width: 40%;   
+}
 
 
 
