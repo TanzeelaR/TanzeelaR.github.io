@@ -31,16 +31,36 @@ p {
 }
 
 
-a {
+
+.ptwoimg{
+    width: 150px;
+    margin: 20px;
+}
+
+
+
+.nav {
     position: fixed;
     left: 1000px;
     top: 600px;
 }
 
 
-img {
+.navimg {
     width: 20%;
 }
+
+
+
+
+#hoverptwo:hover {
+    animation-name: posChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
 
 
 a:hover {
