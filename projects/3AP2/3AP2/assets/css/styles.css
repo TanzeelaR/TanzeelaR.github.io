@@ -33,25 +33,16 @@ p {
 
 a {
 
-position: fixed;
-left: 1000px;
+    position: fixed;
+    left: 1000px;
     top: 600px;
-    
-}
 
-p2{
-    
-}
-
-img{
-   width: 20%;   
-}
-
-imgtwo{
-   width: 40%;   
 }
 
 
+img {
+    width: 20%;
+}
 
 
 a:hover {
@@ -65,13 +56,10 @@ a:hover {
 
 @keyframes posChange {
     0% {
-            transform: rotate3d(0)
+        transform: rotate3d(0)
     }
+
     100% {
-            transform: rotate3d(1, 1, 1, 360deg)
+        transform: rotate3d(1, 1, 1, 360deg)
     }
 }
-
-
-
-
